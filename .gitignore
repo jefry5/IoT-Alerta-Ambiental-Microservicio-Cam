@@ -1,0 +1,32 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de modelo pesados
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de VS Code
+.vscode/
+*.code-workspace
+
+# Archivos temporales o salidas
+*.log
+
+# Variables de entorno
+.env
+
+# Ignorar código de yolov5 completo
+yolov5/
